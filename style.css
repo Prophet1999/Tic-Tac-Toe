@@ -36,8 +36,8 @@ body {
 }
 
 #reset-btn:hover, #new-btn:hover  {
-  color: #191913;
-  background-color: #fff;
+  color: rgb(239, 251, 243);
+  background-color: rgb(33, 59, 176);
   cursor: pointer;
 }
 
