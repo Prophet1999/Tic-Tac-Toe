@@ -31,13 +31,13 @@ boxes.forEach((box) => {
       //playerO
       box.style.color = "ForestGreen";
       box.innerText = "O";
-      turnO = false;
     } else {
       //playerX
       box.style.color = "#b0413e";
       box.innerText = "X";
-      turnO = true;
     }
+
+    turnO = !turnO;
     box.disabled = true;
     count++;
 
